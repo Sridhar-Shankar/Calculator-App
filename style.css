@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  background-color: #3b4664;
+  font-family: Inter;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  width: 506px;
+  font-family: inter;
+  color: white;
+  font-weight: 500;
+}
+
+.input-value {
+  color: white;
+  background-color: #181f32;
+  width: 506px;
+  height: 60px;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+  outline: none;
+}
+
+.keys-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  background-color: #181f32;
+  width: 506px;
+  height: 400px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.keys {
+  width: 466px;
+  display: flex;
+  gap: 22px;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+  border-radius: 12px;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.reset {
+  background-color: #647299;
+  color: white;
+  width: 222.44px;
+}
+
+.equal {
+  background-color: #d13f30;
+  color: white;
+  width: 222.44px;
+}
+
+.error {
+  font-size: 20px;
+  color: red;
+}
